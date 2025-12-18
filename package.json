@@ -14,9 +14,9 @@
         "yespower",
         "lyra2re2"
     ],
-    "homepage": "https://github.com/ROZ-MOFUMOFU-ME/node-stratum-pool",
+    "homepage": "https://github.com/Miners-World-Coin-MWC/node-stratum-pool",
     "bugs": {
-        "url": "https://github.com/ROZ-MOFUMOFU-ME/node-stratum-pool/issues"
+        "url": "https://github.com/Miners-World-Coin-MWC/node-stratum-pool/issues"
     },
     "license": "GPL-2.0",
     "author": "Matthew Little",
@@ -30,16 +30,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/ROZ-MOFUMOFU-ME/node-stratum-pool.git"
+        "url": "https://github.com/Miners-World-Coin-MWC/node-stratum-pool.git"
     },
     "dependencies": {
         "@exodus/bitcoinjs-lib-zcash": "^0.0.14",
         "async": "^3.2.6",
         "bitcoinjs-lib": "^6.1.7",
-        "multi-hashing": "git+https://github.com/ROZ-MOFUMOFU-ME/node-multi-hashing.git"
+        "multi-hashing": "git+https://github.com/Miners-World-Coin-MWC/node-multi-hashing.git"
     },
     "engines": {
-        "node": ">=16",
-        "npm": ">=7"
+        "node": ">=16"
     }
 }
