@@ -52,6 +52,7 @@ Features
 * ✓ __Yescrypt-0.5__ (BitZeny [ZNY])
 * ✓ __Yescrypt__ (Koto [KOTO], Elicoin,[ELI], etc..)
 * ✓ __YesPoWer__ (Cryply [CRP], Bellcoin [BELL], etc..)
+* ✓ __Yespowermwc__ (MinersWorldCoin [MWC])
 * ✓ __LyraREv2__ (Monacoin [MONA], Mangacoin [MANGA], etc..)
 
 
@@ -79,7 +80,7 @@ Example Usage
 #### Install as a node module by cloning repository
 
 ```bash
-git clone https://github.com/zone117x/node-stratum-pool node_modules/stratum-pool
+git clone https://github.com/Miners-World-Coin-MWC/node-stratum-pool node_modules/stratum-pool
 npm update
 ```
 
@@ -92,9 +93,9 @@ skein, groestl, fugue, shavite3, hefty1, or qubit*.
 
 ```javascript
 var myCoin = {
-    "name": "Dogecoin",
-    "symbol": "DOGE",
-    "algorithm": "scrypt",
+    "name": "MinersWorldCoin",
+    "symbol": "MWC",
+    "algorithm": "yespowerMWC",
     "nValue": 1024, //optional - defaults to 1024
     "rValue": 1, //optional - defaults to 1
     "txMessages": false, //optional - defaults to false,
@@ -103,8 +104,8 @@ var myCoin = {
        source code as the pchMessageStart variable.
        For example, litecoin mainnet magic: http://git.io/Bi8YFw
        And for litecoin testnet magic: http://git.io/NXBYJA */
-     "peerMagic": "fbc0b6db" //optional
-     "peerMagicTestnet": "fcc1b7dc" //optional
+     "peerMagic": "ad5aeb9f" //optional
+     "peerMagicTestnet": "9554e495" //optional
 };
 ```
 
